@@ -36,17 +36,17 @@ const Works = () => {
     ];
 
     return (
-        <div className='flex justify-center items-center py-12'>
-            <div className='w-1/2 p-2'>
+        <div className='flex justify-center items-center lg:flex-row flex-col py-12'>
+            <div className='lg:w-1/2 w-full p-4'>
                 <p className='text-green-500'>WHY CHOOSE US</p>
                 <h1 className='text-3xl font-bold mb-4'>We help you to make work easy</h1>
                 <p className='text-gray-500'>
                     "We're here to make your work easier. Our mission is to simplify your tasks, streamline your processes, and empower you to focus on what truly matters. With our expertise and innovative solutions, you can achieve more with less effort. Let us help you unlock efficiency and productivity, so you can reach your goals with ease."
                 </p>
             </div>
-            <div className='w-1/2'>
+            <div className='lg:w-1/2 w-full p-2'>
                 <div className="">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3">
                         {services.map((service) => (
                             <div
                                 key={service.id}
