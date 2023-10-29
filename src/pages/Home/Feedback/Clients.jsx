@@ -106,7 +106,17 @@ const Clients = () => {
     ];
 
     return (
-        <div className="client-satisfaction">
+        <div className="client-satisfaction my-6">
+            <div>
+            <div className="lg:w-2/4 lg:mx-10 p-2 text-left">
+                <h1 className="text-3xl font-bold text-gray-800 mb-4">
+                   What they say about us
+                </h1>
+                <p className="text-gray-500">
+                    "Turning our client's visions into reality is our passion. Our extensive experience in design has enabled us to bring countless projects to life, each one telling a unique story through exceptional design."
+                </p>
+            </div>
+            </div>
             <Slider {...settings}>
                 {feedbackData.map((item, index) => (
                     <div key={index} className="p-4 bg-white rounded-lg shadow-lg text-center">
