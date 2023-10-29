@@ -4,6 +4,7 @@ import Services from '../Services/Services';
 import Works from '../Works/Works';
 import Projects1 from '../Projects/Projects1';
 import Results from '../Counters/Results';
+import Clients from '../Feedback/Clients';
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
           <Projects1 />
           {/* <Counters /> */}
           <Results />
+          <Clients />
         </div>
     );
 };
