@@ -5,6 +5,7 @@ import Works from '../Works/Works';
 import Projects1 from '../Projects/Projects1';
 import Results from '../Counters/Results';
 import Clients from '../Feedback/Clients';
+import Download from '../Download/Download';
 
 
 const Home = () => {
@@ -17,6 +18,8 @@ const Home = () => {
           {/* <Counters /> */}
           <Results />
           <Clients />
+<Download />
+
         </div>
     );
 };

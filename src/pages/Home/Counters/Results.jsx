@@ -13,7 +13,6 @@ const Results = () => {
   return (
     <div>
       <div className=" p-8 bg-gray-100">
-        <h1 className="text-4xl font-bold text-center mb-8">CounterUp Example</h1>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="bg-white p-4 shadow-md text-center" data-aos="fade-up">
             <p className="text-lg text-gray-600 uppercase">Project Done</p>
@@ -26,7 +25,7 @@ const Results = () => {
             <p className="text-lg text-gray-600 uppercase">user worldwide</p>
             <div className="flex items-center justify-center gap-2 font-semibold">
               <Counter end={250} duration={4} />
-              <span>M</span>
+              <span>M +</span>
             </div>
           </div>
           <div className="bg-white p-4 shadow-md text-center" data-aos="fade-up">
