@@ -9,19 +9,19 @@ import Download from '../Download/Download';
 
 
 const Home = () => {
-    return (
-        <div >
-          <Banner />
-          <Services />
-          <Works />
-          <Projects1 />
-          {/* <Counters /> */}
-          <Results />
-          <Clients />
-<Download />
+  return (
+    <div >
+      <Banner />
+      <Services />
+      <Works />
+      <Projects1 />
+      {/* <Counters /> */}
+      <Results />
+      <Clients />
+      <Download />
 
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Home;

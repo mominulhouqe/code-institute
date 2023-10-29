@@ -62,7 +62,8 @@ const Services = () => {
     ];
 
     return (
-        <div className="bg-gray-100 py-10">
+       
+            <div id='service' className="bg-gray-100 py-10">
         <div className="container mx-auto">
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {services.map((service) => (
@@ -80,6 +81,7 @@ const Services = () => {
             </div>
         </div>
     </div>
+        
     );
 };
 

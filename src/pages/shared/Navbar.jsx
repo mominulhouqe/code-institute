@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Zoom from 'react-awesome-reveal';
 import logo from '../../assets/logo.jpg'
 // import './Navber.css';
-
+import { HashLink } from 'react-router-hash-link';
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
@@ -35,48 +35,42 @@ const Navbar = () => {
           >
             <Zoom direction='down' duration={500} triggerOnce>
               <li className='md:ml-8 text-xl md:my-0 my-7'>
-                <Link
-                  to='/'
+                <HashLink
+                  to='#'
                   className=' px-4 py-2 rounded-lg duration-500'
                   onClick={handleItemClick}
                 >
                  HOME
-                </Link>
+                </HashLink>
               </li>
             </Zoom>
             <Zoom direction='down' duration={500} triggerOnce>
               <li className='md:ml-8 text-xl md:my-0 my-7'>
-                <Link
-                  to='/about'
+                <HashLink
+                  to='#about'
                   className=' px-4 py-2 rounded-lg duration-500'
                   onClick={handleItemClick}
                 >
                   ABOUT US
-                </Link>
+                </HashLink>
               </li>
             </Zoom>
             <Zoom direction='down' duration={500} triggerOnce>
               <li className='md:ml-8 text-xl md:my-0 my-7'>
-                <Link to='/services' className=' px-4 py-2 rounded-lg duration-500'  onClick={handleItemClick}>
+                <HashLink to='#service' className=' px-4 py-2 rounded-lg duration-500'  onClick={handleItemClick}>
                   SERVICES
-                </Link>
+                </HashLink>
               </li>
             </Zoom>
 
             <Zoom direction='down' duration={500} triggerOnce>
               <li className='md:ml-8 text-xl md:my-0 my-7'>
-                <Link to='/indurstry' className=' px-4 py-2 rounded-lg duration-500'  onClick={handleItemClick}>
-                  PRODUCTS
-                </Link>
+                <HashLink to='#project' className=' px-4 py-2 rounded-lg duration-500'  onClick={handleItemClick}>
+                  PROJECTS
+                </HashLink>
               </li>
             </Zoom>
-            <Zoom direction='down' duration={500} triggerOnce>
-              <li className='md:ml-8 text-xl md:my-0 my-7'>
-                <Link to='/contact' className=' px-4 py-2 rounded-lg duration-500'  onClick={handleItemClick}>
-                  CONTACT
-                </Link>
-              </li>
-            </Zoom>
+            
           </ul>
         </div>
       </div>

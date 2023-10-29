@@ -8,7 +8,7 @@ const Footer = () => {
   const phone = '+8801937985805';
 
   return (
-    <footer className="bg-gray-900 text-white p-4">
+    <footer id='about' className="bg-gray-900 text-white p-4">
       <div className="container px-4 mx-auto flex flex-col items-center">
         <div className="flex space-x-4 mb-8">
           <Fade direction="up" triggerOnce>
