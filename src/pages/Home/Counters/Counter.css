@@ -1,0 +1,12 @@
+.counter {
+    font-size: 2rem;
+    animation: countup 3s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  @keyframes countup {
+    to {
+      opacity: 1;
+    }
+  }
+  

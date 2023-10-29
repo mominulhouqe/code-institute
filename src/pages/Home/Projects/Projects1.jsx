@@ -98,7 +98,7 @@ const Projects1 = () => {
     };
 
     return (
-        <div className="my-6 p-2">
+        <div className="my-6 p-2 ">
             <div className="lg:w-2/4 lg:mx-10 p-2 text-left">
                 <h1 className="text-3xl font-bold text-gray-800 mb-4">
                     Over time, we've delivered an array of captivating designs for our clients.

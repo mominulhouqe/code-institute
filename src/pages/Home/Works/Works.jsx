@@ -36,7 +36,7 @@ const Works = () => {
     ];
 
     return (
-        <div className='flex justify-center items-center lg:flex-row flex-col py-12'>
+        <div className='bg-gray-100 flex justify-center items-center lg:flex-row flex-col py-12'>
             <div className='lg:w-1/2 w-full p-4'>
                 <p className='text-green-500'>WHY CHOOSE US</p>
                 <h1 className='text-3xl font-bold mb-4'>We help you to make work easy</h1>
