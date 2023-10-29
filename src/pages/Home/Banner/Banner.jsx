@@ -4,7 +4,7 @@ import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 
 const Banner = () => {
     return (
-        <div className="p-2 mt-24 font-serif">
+        <div className="p-2 mt-24 font-serif bg-gray-100">
             <div className="flex flex-col md:flex-row items-center justify-between">
                 <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0 lg:ml-9">
                     <p className="text-xs text-gray-400 font-semibold mb-2 ">The Most Effective Solution</p>

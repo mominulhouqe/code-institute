@@ -37,7 +37,7 @@ const Navbar = () => {
               <li className='md:ml-8 text-xl md:my-0 my-7'>
                 <Link
                   to='/'
-                  className='text-[#005F00] hover:bg-[#005F00] hover:text-white px-4 py-2 rounded-lg duration-500'
+                  className=' px-4 py-2 rounded-lg duration-500'
                   onClick={handleItemClick}
                 >
                  HOME
@@ -48,7 +48,7 @@ const Navbar = () => {
               <li className='md:ml-8 text-xl md:my-0 my-7'>
                 <Link
                   to='/about'
-                  className='text-[#005F00] hover:bg-[#005F00] hover:text-white px-4 py-2 rounded-lg duration-500'
+                  className=' px-4 py-2 rounded-lg duration-500'
                   onClick={handleItemClick}
                 >
                   ABOUT US
@@ -57,7 +57,7 @@ const Navbar = () => {
             </Zoom>
             <Zoom direction='down' duration={500} triggerOnce>
               <li className='md:ml-8 text-xl md:my-0 my-7'>
-                <Link to='/services' className='text-[#005F00] hover:bg-[#005F00] hover:text-white px-4 py-2 rounded-lg duration-500'  onClick={handleItemClick}>
+                <Link to='/services' className=' px-4 py-2 rounded-lg duration-500'  onClick={handleItemClick}>
                   SERVICES
                 </Link>
               </li>
@@ -65,14 +65,14 @@ const Navbar = () => {
 
             <Zoom direction='down' duration={500} triggerOnce>
               <li className='md:ml-8 text-xl md:my-0 my-7'>
-                <Link to='/indurstry' className='text-[#005F00] hover:bg-[#005F00] hover:text-white px-4 py-2 rounded-lg duration-500'  onClick={handleItemClick}>
+                <Link to='/indurstry' className=' px-4 py-2 rounded-lg duration-500'  onClick={handleItemClick}>
                   PRODUCTS
                 </Link>
               </li>
             </Zoom>
             <Zoom direction='down' duration={500} triggerOnce>
               <li className='md:ml-8 text-xl md:my-0 my-7'>
-                <Link to='/contact' className='text-[#005F00] hover:bg-[#005F00] hover:text-white px-4 py-2 rounded-lg duration-500'  onClick={handleItemClick}>
+                <Link to='/contact' className=' px-4 py-2 rounded-lg duration-500'  onClick={handleItemClick}>
                   CONTACT
                 </Link>
               </li>
