@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className='shadow-xl w-full'>
+      <div className='shadow-xl w-full fixed z-10 top-0 left-0 right-0'>
         <div className='md:flex items-center  justify-between bg-white py-4 md:px-10 px-7'>
           <Zoom direction='down' duration={500} triggerOnce>
             <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800'>
