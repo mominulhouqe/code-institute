@@ -69,7 +69,7 @@ const Services = () => {
                 {services.map((service) => (
                     <div key={service.id} className="rounded-lg shadow-sm transform hover:scale-105 transition-transform duration-300 ease-in-out flex">
                         <div className="p-2">
-                            <img src={service.image} alt={service.category} className="rounded-full" />
+                            <img src={service.image} alt={service.category} className="w-36  rounded-full" />
                         </div>
                         <div className="p-4">
                             <div className="text-xl font-bold text-blue-600 mb-2">{service.category}</div>

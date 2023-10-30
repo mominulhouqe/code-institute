@@ -98,9 +98,9 @@ const Projects1 = () => {
     };
 
     return (
-        <div id='project' className="my-6 p-2 " >
+        <div id='project' className="my-12 p-2 " >
             <div className="lg:w-2/4 lg:mx-10 p-2 text-left">
-                <h1 className="text-3xl font-bold text-gray-800 mb-4">
+                <h1 className="text-4xl font-bold text-gray-800 mb-7">
                     Over time, we've delivered an array of captivating designs for our clients.
                 </h1>
                 <p className="text-gray-500">

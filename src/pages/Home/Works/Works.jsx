@@ -36,21 +36,21 @@ const Works = () => {
     ];
 
     return (
-        <div className='bg-gray-100 flex justify-center items-center lg:flex-row flex-col py-12'>
+        <div className='bg-gray-100  flex justify-center items-center lg:flex-row flex-col py-12'>
             <div className='lg:w-1/2 w-full p-4'>
-                <p className='text-green-500'>WHY CHOOSE US</p>
-                <h1 className='text-3xl font-bold mb-4'>We help you to make work easy</h1>
+                <p className='text-gray-400 mb-4'>WHY CHOOSE US</p>
+                <h1 className='text-4xl font-bold mb-7'>We help you to make work easy</h1>
                 <p className='text-gray-500'>
                     "We're here to make your work easier. Our mission is to simplify your tasks, streamline your processes, and empower you to focus on what truly matters. With our expertise and innovative solutions, you can achieve more with less effort. Let us help you unlock efficiency and productivity, so you can reach your goals with ease."
                 </p>
             </div>
             <div className='lg:w-1/2 w-full p-2'>
                 <div className="">
-                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3 ">
                         {services.map((service) => (
                             <div
                                 key={service.id}
-                                className="bg-white rounded-lg overflow-hidden shadow-md transition-transform transform hover:scale-105 duration-300 ease-in-out"
+                                className="bg-white rounded-lg p-4 overflow-hidden shadow-md transition-transform transform hover:scale-105 duration-300 ease-in-out"
                             >
                                 <div className="rounded-full flex justify-center items-center">
                                     <img src={service.image} alt={service.category} className="w-8 h-8" />
